@@ -1,6 +1,24 @@
 
 
 
+# Movimentation of the bot
+def move_down():
+    i += 1
+    print('DOWN')
+
+def move_up():
+    i -= 1
+    print('UP')
+
+def move_left():
+    j -= 1
+    print('LEFT')
+
+def move_right():
+    j += 1
+    print('RIGHT')
+
+
 
 # Size of the Matrix
 input(n)
