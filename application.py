@@ -31,5 +31,14 @@ if 3 <= n <= 100:
     j = i
     # m[i, j]
 
+    while i is not x and j is not z:
+        if i > x:
+
+        else:
+
+        if j > z:
+
+        else:
+
 else:
     print("Input a value between [3,100] and odd.")
