@@ -33,12 +33,13 @@ if 3 <= n <= 100:
 
     while i is not x and j is not z:
         if i > x:
-
+            move_left()
         else:
+            move_right()
 
         if j > z:
-
+            move_up()
         else:
-
+            move_down()
 else:
     print("Input a value between [3,100] and odd.")
