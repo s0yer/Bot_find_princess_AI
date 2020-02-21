@@ -1,6 +1,5 @@
 
 
-
 # Movimentation of the bot
 def move_down():
     i += 1
@@ -31,6 +30,8 @@ if 3 <= n <= 100:
     j = i
     # m[i, j]
 
+
+# loop that keep looking for the position of the princess
     while i is not x and j is not z:
         if i > x:
             move_left()
